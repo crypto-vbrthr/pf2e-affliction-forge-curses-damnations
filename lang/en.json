@@ -1,0 +1,557 @@
+{
+  "PF2E_AFFLICTION_CD": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Curses & Damnations",
+      "Library": "Curses & Damnations",
+      "LibraryDescription": "Original curses and damnations with semantic Creature Forge tags.",
+      "InitializationFailed": "Curses & Damnations could not initialize: {message}",
+      "SyncFailed": "Curses & Damnations could not synchronize its library. See console."
+    },
+    "Content": {
+      "candle-shadow-jinx": {
+        "Name": "Candle-Shadow Jinx",
+        "Description": "A petty shadow curse makes edges of light slip and hands tremble at exactly the wrong moment.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Dazzled."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Dazzled and clumsy 1."
+        }
+      },
+      "crooked-luck-hex": {
+        "Name": "Crooked-Luck Hex",
+        "Description": "A common hex makes confident thoughts stumble and small coincidences turn against the victim.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Stupefied 1 and frightened 1."
+        }
+      },
+      "grave-whisper": {
+        "Name": "Grave Whisper",
+        "Description": "The voice of a restless dead lingers in the back of the mind and draws warmth from the body.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d4 void damage and frightened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 void damage and stupefied 1."
+        }
+      },
+      "thorn-oath": {
+        "Name": "Thorn Oath",
+        "Description": "A broken fey oath grows unseen thorns beneath the skin.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1 persistent bleed damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d4 persistent bleed damage and enfeebled 1."
+        }
+      },
+      "mirrors-spite": {
+        "Name": "Mirror’s Spite",
+        "Description": "A cursed reflection gradually steals clarity, orientation, and trust in one’s own senses.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Dazzled and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Dazzled, stupefied 1, and 1d6 mental damage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Blinded, stupefied 1, and 1d6 mental damage."
+        }
+      },
+      "moonless-mark": {
+        "Name": "Moonless Mark",
+        "Description": "A black mark chills in moonlight and makes the world around the victim feel threateningly wrong.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Frightened 1 and clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Frightened 2 and clumsy 1."
+        }
+      },
+      "hollow-name": {
+        "Name": "Hollow Name",
+        "Description": "The curse gnaws at the meaning of the victim’s own name until words become difficult to force from the mouth.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Stupefied 1; speaking is blocked."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Stupefied 2; speaking is blocked."
+        }
+      },
+      "feystep-snare": {
+        "Name": "Feystep Snare",
+        "Description": "Invisible paths of the First World knot around the victim’s steps and pull every movement out of rhythm.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Clumsy 1 and slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Clumsy 2 and slowed 1."
+        }
+      },
+      "ashen-vow": {
+        "Name": "Ashen Vow",
+        "Description": "A corrupted vow settles like ash over muscle and vitality.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Enfeebled 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Enfeebled 1 and drained 1; damage caused by the curse can’t be healed."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Enfeebled 2 and drained 1; healing is blocked."
+        }
+      },
+      "carrion-bell-curse": {
+        "Name": "Carrion Bell Curse",
+        "Description": "Only the victim hears a distant funeral bell whose toll draws closer with every hour.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d6 spirit damage and frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 spirit damage and frightened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 void damage and frightened 2."
+        }
+      },
+      "blood-debt": {
+        "Name": "Blood Debt",
+        "Description": "Magically bound blood reminds the body of an unpaid debt and prevents vitality from fully returning.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Drained 1; can’t be reduced below 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 void damage and drained 1; can’t be reduced below 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 void damage and drained 2; can’t be reduced below 2."
+        }
+      },
+      "sleepless-lantern": {
+        "Name": "Sleepless Lantern",
+        "Description": "The light of a cursed lantern remains visible behind closed eyes and wears down mind and body.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Stupefied 1 and drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Stupefied 2 and drained 1."
+        }
+      },
+      "wolf-moon-oath": {
+        "Name": "Wolf-Moon Oath",
+        "Description": "An ancient hunting curse twists posture and instinct until the victim moves like harried prey.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Clumsy 1 and frightened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Clumsy 2 and enfeebled 1."
+        }
+      },
+      "drowned-breath": {
+        "Name": "Drowned Breath",
+        "Description": "The curse of the drowned fills the lungs with cold memory instead of water.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 void damage and sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 void damage, sickened 2, and slowed 1."
+        }
+      },
+      "black-feather-omen": {
+        "Name": "Black Feather Omen",
+        "Description": "Black feathers appear in dreams and omens until every choice tastes of approaching disaster.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Frightened 1 and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 mental damage, frightened 1, and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 mental damage, frightened 2, and stupefied 2."
+        }
+      },
+      "puppets-thread": {
+        "Name": "Puppet’s Thread",
+        "Description": "Invisible strings tug at limbs and thoughts as though a distant puppeteer were practicing.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Clumsy 1 and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Confused and clumsy 1."
+        }
+      },
+      "graveglass-gaze": {
+        "Name": "Graveglass Gaze",
+        "Description": "Death magic lays a layer of cold graveglass over the eyes and then over the mind behind them.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Dazzled and 2d6 void damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Blinded and 3d6 void damage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Blinded, stupefied 2, and 4d6 void damage."
+        }
+      },
+      "ember-brand": {
+        "Name": "Ember Brand",
+        "Description": "A brand of elemental ember flares repeatedly and weakens the flesh.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 fire damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 fire damage and enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 fire damage and enfeebled 2."
+        }
+      },
+      "thorn-crown": {
+        "Name": "Thorn Crown",
+        "Description": "Invisible thorns press into brow and thought, threading pain through every attempt to focus.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d6 persistent bleed damage and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 persistent bleed damage, stupefied 1, and sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 persistent bleed damage, stupefied 2, and sickened 2."
+        }
+      },
+      "dream-eaters-kiss": {
+        "Name": "Dream-Eater’s Kiss",
+        "Description": "Something alien feeds on memories night after night, leaving only exhaustion and blank spaces.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 mental damage and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 mental damage, stupefied 2, and drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 mental damage, stupefied 2, and drained 2."
+        }
+      },
+      "hollow-saints-rebuke": {
+        "Name": "Hollow Saint’s Rebuke",
+        "Description": "A distorted divine rebuke turns every act of concentration into a struggle against inner accusation.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 spirit damage and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 spirit damage and stupefied 2; concentrate actions require a DC 5 flat check.",
+          "Gate": "Stage 2 concentration check"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 spirit damage, stupefied 2, and slowed 1; concentrate actions require a DC 7 flat check.",
+          "Gate": "Stage 3 concentration check"
+        }
+      },
+      "iron-promise": {
+        "Name": "Iron Promise",
+        "Description": "A broken pact becomes invisible chains that force strength and vitality beneath their weight.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Enfeebled 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Enfeebled 2 and drained 1; drained can’t be reduced below 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Enfeebled 2, drained 2, and slowed 1; drained can’t be reduced below 2."
+        }
+      },
+      "shadow-twin": {
+        "Name": "Shadow Twin",
+        "Description": "The victim’s shadow develops a second will and whispers false movements and memories.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 mental damage and frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 mental damage, frightened 2, and clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 mental damage and confused."
+        }
+      },
+      "starless-benediction": {
+        "Name": "Starless Benediction",
+        "Description": "A blessing from a starless sky replaces comfort with cold emptiness and disrupts focused magic.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "4d6 void damage and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 void damage and stupefied 2; concentrate actions require a DC 7 flat check.",
+          "Gate": "Stage 2 concentration check"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 void damage, stupefied 3, and slowed 1; concentrate actions require a DC 9 flat check.",
+          "Gate": "Stage 3 concentration check"
+        }
+      },
+      "fiends-tithe": {
+        "Name": "Fiend’s Tithe",
+        "Description": "An infernal claim draws vitality from the victim in fixed installments, as though collecting a debt.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "4d6 void damage and drained 1; can’t be reduced below 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "6d6 void damage and drained 2; can’t be reduced below 2."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "8d6 void damage, drained 2, and doomed 1; both conditions are locked."
+        }
+      },
+      "ancestors-wrath": {
+        "Name": "Ancestor’s Wrath",
+        "Description": "Dishonored ancestors follow the victim and strike back through dreams, memories, and spirit.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "5d6 spirit damage and frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "7d6 spirit damage, frightened 2, and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "9d6 spirit damage, frightened 2, stupefied 2, and doomed 1; doomed can’t be reduced below 1."
+        }
+      },
+      "pale-kings-decree": {
+        "Name": "Pale King’s Decree",
+        "Description": "An undead sovereign pronounces a sentence that slowly forces the body into the stillness of his court.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "5d6 void damage and drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "7d6 void damage, drained 2, and slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "9d6 void damage, drained 2, slowed 2, and doomed 1; conditions are locked."
+        }
+      },
+      "worldscar-curse": {
+        "Name": "Worldscar Curse",
+        "Description": "Planar scars spread across flesh and soul, forcing the body into contradictory forms.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "6d6 spirit damage and clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "8d6 spirit damage, clumsy 2, and enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "10d6 spirit damage, clumsy 2, enfeebled 2, and slowed 1."
+        }
+      },
+      "eclipse-brand": {
+        "Name": "Eclipse Brand",
+        "Description": "A brand of eclipsed holy light consumes sight and hope together.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "6d6 void damage, 3d6 mental damage, and dazzled."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "8d6 void damage, 4d6 mental damage, blinded, and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "10d6 void damage, 5d6 mental damage, blinded, stupefied 2, and doomed 1; doomed is locked."
+        }
+      },
+      "doomclock": {
+        "Name": "Doomclock",
+        "Description": "An impossible clock counts down not time, but the victim’s remaining possibilities.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Doomed 1; can’t be reduced below 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "6d6 mental damage, doomed 1, and slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "8d6 mental damage, doomed 2, and slowed 1."
+        },
+        "Stage4": {
+          "Name": "Stage 4",
+          "Description": "10d6 mental damage, doomed 3, and slowed 2."
+        }
+      },
+      "throne-of-ash": {
+        "Name": "Throne of Ash",
+        "Description": "A curse of royal damnation sends furnace heat and grave-cold through the veins at once.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "7d6 fire damage, 5d6 void damage, and drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "9d6 fire damage, 6d6 void damage, drained 2, and frightened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "11d6 fire damage, 7d6 void damage, drained 2, frightened 2, and doomed 1."
+        }
+      },
+      "last-name-unwritten": {
+        "Name": "The Last Name Unwritten",
+        "Description": "A curse from a reality beyond names erases first voice, then memory, and finally the bond between soul and world.",
+        "SaveLabel": "Curse Saving Throw",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "8d6 mental damage and stupefied 2."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "10d6 mental damage, 6d6 void damage, and stupefied 3; speaking is blocked."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "12d6 mental damage, 8d6 void damage, stupefied 3, and doomed 2; speaking is blocked and doomed is locked."
+        },
+        "Stage4": {
+          "Name": "Stage 4",
+          "Description": "14d6 mental damage, 10d6 void damage, and a death effect; speaking is blocked."
+        }
+      }
+    }
+  }
+}

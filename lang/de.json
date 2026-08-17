@@ -1,0 +1,557 @@
+{
+  "PF2E_AFFLICTION_CD": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Curses & Damnations",
+      "Library": "Curses & Damnations",
+      "LibraryDescription": "Originale Flüche und Verdammungen mit semantischen Creature-Forge-Tags.",
+      "InitializationFailed": "Curses & Damnations konnte nicht initialisiert werden: {message}",
+      "SyncFailed": "Curses & Damnations konnte seine Bibliothek nicht synchronisieren. Siehe Konsole."
+    },
+    "Content": {
+      "candle-shadow-jinx": {
+        "Name": "Kerzenschattentücke",
+        "Description": "Ein kleiner Schattenfluch lässt Lichtkanten verrutschen und Hände im falschen Augenblick zittern.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Geblendet."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Geblendet und Unbeholfen 1."
+        }
+      },
+      "crooked-luck-hex": {
+        "Name": "Schiefglück",
+        "Description": "Ein alltäglicher Hex lässt sichere Gedanken stolpern und kleine Zufälle gegen das Opfer kippen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 1 und Furchtsam 1."
+        }
+      },
+      "grave-whisper": {
+        "Name": "Grabflüstern",
+        "Description": "Die Stimme eines ruhelosen Toten bleibt im Hinterkopf zurück und zieht Wärme aus dem Körper.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Furchtsam 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W4 Leerschaden und Furchtsam 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1W6 Leerschaden und Benommen 1."
+        }
+      },
+      "thorn-oath": {
+        "Name": "Dorneneid",
+        "Description": "Ein gebrochener Feeneid lässt unsichtbare Dornen unter der Haut wachsen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1 anhaltender Blutungsschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W4 anhaltender Blutungsschaden und Kraftlos 1."
+        }
+      },
+      "mirrors-spite": {
+        "Name": "Spiegelhäme",
+        "Description": "Ein verfluchtes Spiegelbild nimmt dem Opfer nach und nach Schärfe, Orientierung und Vertrauen in die eigenen Sinne.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Geblendet und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Geblendet, Benommen 1 und 1W6 mentaler Schaden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Blind, Benommen 1 und 1W6 mentaler Schaden."
+        }
+      },
+      "moonless-mark": {
+        "Name": "Mondloses Mal",
+        "Description": "Ein schwarzes Mal kühlt sich im Mondlicht ab und lässt die Welt um das Opfer bedrohlich falsch wirken.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Furchtsam 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Furchtsam 1 und Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Furchtsam 2 und Unbeholfen 1."
+        }
+      },
+      "hollow-name": {
+        "Name": "Hohler Name",
+        "Description": "Der Fluch frisst an der Bedeutung des eigenen Namens, bis Worte nur noch schwer aus dem Mund kommen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 1; Sprechen ist blockiert."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Benommen 2; Sprechen ist blockiert."
+        }
+      },
+      "feystep-snare": {
+        "Name": "Feenschritt-Fessel",
+        "Description": "Unsichtbare Pfade der Feenwelt verknoten sich um die Schritte des Opfers und ziehen jede Bewegung aus dem Takt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Unbeholfen 1 und Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Unbeholfen 2 und Verlangsamt 1."
+        }
+      },
+      "ashen-vow": {
+        "Name": "Aschenschwur",
+        "Description": "Ein verdorbener Schwur legt sich wie Asche auf Muskeln und Lebenswillen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Kraftlos 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Kraftlos 1 und Ausgelaugt 1; vom Fluch verursachter Schaden kann nicht geheilt werden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Kraftlos 2 und Ausgelaugt 1; Heilung ist blockiert."
+        }
+      },
+      "carrion-bell-curse": {
+        "Name": "Aasglockenfluch",
+        "Description": "Nur das Opfer hört eine ferne Totenglocke, deren Klang mit jeder Stunde näher rückt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1W6 Geistschaden und Furchtsam 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 Geistschaden und Furchtsam 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2W6 Leerschaden und Furchtsam 2."
+        }
+      },
+      "blood-debt": {
+        "Name": "Blutschuld",
+        "Description": "Magisch gebundenes Blut erinnert den Körper an eine unbezahlte Schuld und lässt die Lebenskraft nicht vollständig zurückkehren.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Ausgelaugt 1; kann unter 1 nicht sinken."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 Leerschaden und Ausgelaugt 1; kann unter 1 nicht sinken."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 Leerschaden und Ausgelaugt 2; kann unter 2 nicht sinken."
+        }
+      },
+      "sleepless-lantern": {
+        "Name": "Schlaflose Laterne",
+        "Description": "Das Licht einer verfluchten Laterne bleibt hinter geschlossenen Augen sichtbar und zehrt an Geist und Körper.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 1 und Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Benommen 2 und Ausgelaugt 1."
+        }
+      },
+      "wolf-moon-oath": {
+        "Name": "Wolfsmondeid",
+        "Description": "Ein uralter Jagdfluch verdreht Haltung und Instinkt, bis das Opfer sich wie gehetztes Wild bewegt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Unbeholfen 1 und Furchtsam 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Unbeholfen 2 und Kraftlos 1."
+        }
+      },
+      "drowned-breath": {
+        "Name": "Ertrunkener Atem",
+        "Description": "Der Fluch eines Ertrunkenen füllt Lungen mit kalter Erinnerung statt Wasser.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Übel 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 Leerschaden und Übel 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 Leerschaden, Übel 2 und Verlangsamt 1."
+        }
+      },
+      "black-feather-omen": {
+        "Name": "Schwarzfederomen",
+        "Description": "Schwarze Federn erscheinen in Träumen und Vorzeichen, bis jede Entscheidung nach kommendem Unheil schmeckt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Furchtsam 1 und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 mentaler Schaden, Furchtsam 1 und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 mentaler Schaden, Furchtsam 2 und Benommen 2."
+        }
+      },
+      "puppets-thread": {
+        "Name": "Puppenfaden",
+        "Description": "Unsichtbare Fäden ziehen an Gliedern und Gedanken, als übe irgendwo ein fremder Puppenspieler.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Unbeholfen 1 und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Verwirrt und Unbeholfen 1."
+        }
+      },
+      "graveglass-gaze": {
+        "Name": "Grabglasblick",
+        "Description": "Totenmagie legt eine Schicht aus kaltem Grabglas über die Augen und dahinter über den Geist.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Geblendet und 2W6 Leerschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Blind und 3W6 Leerschaden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Blind, Benommen 2 und 4W6 Leerschaden."
+        }
+      },
+      "ember-brand": {
+        "Name": "Glutmal",
+        "Description": "Ein Brandzeichen aus elementarer Glut flammt regelmäßig auf und schwächt das Fleisch.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3W6 Feuerschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4W6 Feuerschaden und Kraftlos 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5W6 Feuerschaden und Kraftlos 2."
+        }
+      },
+      "thorn-crown": {
+        "Name": "Dornenkrone",
+        "Description": "Unsichtbare Dornen drücken sich in Stirn und Gedanken und lassen Schmerz in jede Konzentration kriechen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1W6 anhaltender Blutungsschaden und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 anhaltender Blutungsschaden, Benommen 1 und Übel 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2W6 anhaltender Blutungsschaden, Benommen 2 und Übel 2."
+        }
+      },
+      "dream-eaters-kiss": {
+        "Name": "Traumfresserkuss",
+        "Description": "Etwas Fremdes frisst Nacht für Nacht an Erinnerungen und hinterlässt nur Müdigkeit und leere Stellen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3W6 mentaler Schaden und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4W6 mentaler Schaden, Benommen 2 und Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5W6 mentaler Schaden, Benommen 2 und Ausgelaugt 2."
+        }
+      },
+      "hollow-saints-rebuke": {
+        "Name": "Rüge des Hohlen Heiligen",
+        "Description": "Eine entstellte göttliche Mahnung macht jedes konzentrierte Wirken zu einem Kampf gegen innere Anklage.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3W6 Geistschaden und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4W6 Geistschaden und Benommen 2; Konzentrationshandlungen erfordern einen einfachen SG 5.",
+          "Gate": "Konzentrationsprobe Phase 2"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5W6 Geistschaden, Benommen 2 und Verlangsamt 1; Konzentrationshandlungen erfordern einen einfachen SG 7.",
+          "Gate": "Konzentrationsprobe Phase 3"
+        }
+      },
+      "iron-promise": {
+        "Name": "Eisernes Versprechen",
+        "Description": "Ein gebrochener Pakt wird zu unsichtbaren Ketten, die Kraft und Lebenskraft unter ihr Gewicht zwingen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Kraftlos 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Kraftlos 2 und Ausgelaugt 1; Ausgelaugt kann unter 1 nicht sinken."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Kraftlos 2, Ausgelaugt 2 und Verlangsamt 1; Ausgelaugt kann unter 2 nicht sinken."
+        }
+      },
+      "shadow-twin": {
+        "Name": "Schattenzwilling",
+        "Description": "Der eigene Schatten entwickelt einen zweiten Willen und flüstert falsche Bewegungen und Erinnerungen ein.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3W6 mentaler Schaden und Furchtsam 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4W6 mentaler Schaden, Furchtsam 2 und Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5W6 mentaler Schaden und Verwirrt."
+        }
+      },
+      "starless-benediction": {
+        "Name": "Sternenloser Segen",
+        "Description": "Eine Segnung aus einem Himmel ohne Sterne ersetzt Trost durch kalte Leere und stört konzentrierte Magie.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "4W6 Leerschaden und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5W6 Leerschaden und Benommen 2; Konzentrationshandlungen erfordern einen einfachen SG 7.",
+          "Gate": "Konzentrationsprobe Phase 2"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6W6 Leerschaden, Benommen 3 und Verlangsamt 1; Konzentrationshandlungen erfordern einen einfachen SG 9.",
+          "Gate": "Konzentrationsprobe Phase 3"
+        }
+      },
+      "fiends-tithe": {
+        "Name": "Tribut des Unholds",
+        "Description": "Ein infernaler Anspruch zieht in festen Raten Lebenskraft aus dem Opfer, als würde eine Schuld eingetrieben.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "4W6 Leerschaden und Ausgelaugt 1; kann unter 1 nicht sinken."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "6W6 Leerschaden und Ausgelaugt 2; kann unter 2 nicht sinken."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "8W6 Leerschaden, Ausgelaugt 2 und Verdammt 1; beide Zustände sind festgesetzt."
+        }
+      },
+      "ancestors-wrath": {
+        "Name": "Zorn der Ahnen",
+        "Description": "Missachtete Ahnen folgen dem Opfer und schlagen in Träumen, Erinnerungen und Geisterkraft zurück.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "5W6 Geistschaden und Furchtsam 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "7W6 Geistschaden, Furchtsam 2 und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "9W6 Geistschaden, Furchtsam 2, Benommen 2 und Verdammt 1; Verdammt kann unter 1 nicht sinken."
+        }
+      },
+      "pale-kings-decree": {
+        "Name": "Dekret des Bleichen Königs",
+        "Description": "Ein untoter Herrscher spricht ein Urteil, das den Körper langsam in die Ruhe seines Hofes zwingt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "5W6 Leerschaden und Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "7W6 Leerschaden, Ausgelaugt 2 und Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "9W6 Leerschaden, Ausgelaugt 2, Verlangsamt 2 und Verdammt 1; Zustände sind festgesetzt."
+        }
+      },
+      "worldscar-curse": {
+        "Name": "Weltennarbenfluch",
+        "Description": "Planare Narben zeichnen sich auf Fleisch und Seele ab und zwingen den Körper in widersprüchliche Formen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "6W6 Geistschaden und Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "8W6 Geistschaden, Unbeholfen 2 und Kraftlos 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "10W6 Geistschaden, Unbeholfen 2, Kraftlos 2 und Verlangsamt 1."
+        }
+      },
+      "eclipse-brand": {
+        "Name": "Finsternismal",
+        "Description": "Ein Mal aus verdunkeltem heiligem Licht frisst Sicht und Hoffnung zugleich.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "6W6 Leerschaden, 3W6 mentaler Schaden und Geblendet."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "8W6 Leerschaden, 4W6 mentaler Schaden, Blind und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "10W6 Leerschaden, 5W6 mentaler Schaden, Blind, Benommen 2 und Verdammt 1; Verdammt ist festgesetzt."
+        }
+      },
+      "doomclock": {
+        "Name": "Schicksalsuhr",
+        "Description": "Eine unmögliche Uhr zählt nicht Zeit, sondern die verbleibenden Möglichkeiten des Opfers herunter.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verdammt 1; kann unter 1 nicht sinken."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "6W6 mentaler Schaden, Verdammt 1 und Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "8W6 mentaler Schaden, Verdammt 2 und Verlangsamt 1."
+        },
+        "Stage4": {
+          "Name": "Phase 4",
+          "Description": "10W6 mentaler Schaden, Verdammt 3 und Verlangsamt 2."
+        }
+      },
+      "throne-of-ash": {
+        "Name": "Aschenthron",
+        "Description": "Ein Fluch königlicher Verdammnis lässt Hitze und Grabeskälte gemeinsam durch die Adern laufen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "7W6 Feuerschaden, 5W6 Leerschaden und Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "9W6 Feuerschaden, 6W6 Leerschaden, Ausgelaugt 2 und Furchtsam 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "11W6 Feuerschaden, 7W6 Leerschaden, Ausgelaugt 2, Furchtsam 2 und Verdammt 1."
+        }
+      },
+      "last-name-unwritten": {
+        "Name": "Der ungeschriebene letzte Name",
+        "Description": "Ein Fluch aus einer Realität jenseits der Namen löscht zuerst Stimme, dann Erinnerung und schließlich die Verbindung zwischen Seele und Welt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "8W6 mentaler Schaden und Benommen 2."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "10W6 mentaler Schaden, 6W6 Leerschaden und Benommen 3; Sprechen ist blockiert."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "12W6 mentaler Schaden, 8W6 Leerschaden, Benommen 3 und Verdammt 2; Sprechen ist blockiert und Verdammt festgesetzt."
+        },
+        "Stage4": {
+          "Name": "Phase 4",
+          "Description": "14W6 mentaler Schaden, 10W6 Leerschaden und Todeseffekt; Sprechen ist blockiert."
+        }
+      }
+    }
+  }
+}
